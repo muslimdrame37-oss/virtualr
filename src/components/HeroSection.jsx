@@ -21,7 +21,7 @@ const HeroSection = () => {
       <div className="flex justify-center my-10">
         <a
           href="#"
-          className="bg-linear-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md"
+          className="flex items-center justify-center bg-linear-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md"
         >
           Commencer gratuitement
         </a>
