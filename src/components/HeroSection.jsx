@@ -26,7 +26,7 @@ const HeroSection = () => {
           Commencer gratuitement
         </a>
 
-        <a href="#" className="py-3 px-4 mx-3 rounded-md border">
+        <a href="#" className="flex items-center justify-center py-3 px-4 mx-3 rounded-md border">
           Documentation
         </a>
       </div>
