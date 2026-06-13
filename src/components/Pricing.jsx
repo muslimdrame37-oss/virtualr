@@ -5,7 +5,7 @@ const Pricing = () => {
   return (
     <div className="mt-20">
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-8 ">
-        Pricing
+        Tarifs
       </h2>
       <div className="flex flex-wrap">
         {pricingOptions.map((option, index) => (
@@ -15,14 +15,14 @@ const Pricing = () => {
                 {option.title}
                 {option.title === "Pro" && (
                   <span className="bg-linear-to-r from-orange-500 to-red-400 text-transparent bg-clip-text text-xl mb-4 ml-2">
-                    (Most Popular)
+                    (Le Plus Populaire)
                   </span>
                 )}
               </p>
 
               <p>
                 <span className="text-5xl mt-6 mr-2">{option.price}</span>
-                <span className="text-neutral-400 tracking-tight">/Month</span>
+                <span className="text-neutral-400 tracking-tight">/Mois</span>
               </p>
 
               <ul>

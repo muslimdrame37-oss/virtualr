@@ -27,13 +27,13 @@ const NavBar = () => {
 
           <div className="hidden lg:flex justify-center space-x-12 items-center">
             <a href="#" className="py-2 px-3 border rounded-md">
-              Sign In
+              Se connecter
             </a>
             <a
               href="#"
               className="bg-linear-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md"
             >
-              Create an account
+              Créer un compte
             </a>
           </div>
 
@@ -56,14 +56,14 @@ const NavBar = () => {
 
             <div className="flex space-x-6">
               <a href="#" className="py-2 px-3 border rounded-md">
-                Sign In
+                Se connecter
               </a>
 
               <a
                 href="#"
                 className="bg-linear-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md"
               >
-                Create an account
+                Créer un compte
               </a>
             </div>
           </div>

@@ -6,9 +6,9 @@ const Workflow = () => {
   return (
     <div className="mt-20 ">
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wider">
-        Accelarate your{" "}
+        Accélérez votre{" "}
         <span className="bg-linear-to-r from-orange-500 to-orange-800 bg-clip-text text-transparent">
-          coding workflow
+          flux de travail de développement
         </span>
       </h2>
 

@@ -13,10 +13,10 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Features", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "Fonctionnalités", href: "#" },
+  { label: "Flux de travail", href: "#" },
+  { label: "Tarifs", href: "#" },
+  { label: "Témoignages", href: "#" },
 ];
 
 export const testimonials = [
@@ -24,155 +24,155 @@ export const testimonials = [
     user: "John Doe",
     company: "Stellar Solutions",
     image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    text: "Je suis extrêmement satisfait des services fournis. L'équipe était réactive, professionnelle et a livré des résultats au-delà de mes attentes.",
   },
   {
     user: "Jane Smith",
     company: "Blue Horizon Technologies",
     image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: "Je ne pourrais pas être plus heureux du résultat de notre projet. La créativité et les compétences en résolution de problèmes de l'équipe ont été essentielles pour donner vie à notre vision.",
   },
   {
     user: "David Johnson",
     company: "Quantum Innovations",
     image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    text: "Travailler avec cette entreprise a été un plaisir. Leur souci du détail et leur engagement envers l'excellence sont remarquables. Je les recommande vivement à quiconque recherche un service de qualité supérieure.",
   },
   {
     user: "Ronee Brown",
     company: "Fusion Dynamics",
     image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+    text: "Travailler avec l'équipe de XYZ Company a été une révolution pour notre projet. Leur souci du détail et leurs solutions innovantes nous ont aidés à atteindre nos objectifs plus rapidement que prévu. Nous sommes reconnaissants de leur expertise et de leur professionnalisme !",
   },
   {
     user: "Michael Wilson",
     company: "Visionary Creations",
     image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
+    text: "Je suis émerveillé par le niveau de professionnalisme et de dévouement dont fait preuve l'équipe. Ils ont réussi à dépasser nos attentes et à livrer des résultats remarquables.",
   },
   {
     user: "Emily Davis",
     company: "Synergy Systems",
     image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    text: "L'équipe a fait tout son possible pour que notre projet soit un succès. Leur expertise et leur dévouement sont inégalés. J'ai hâte de travailler à nouveau avec eux à l'avenir.",
   },
 ];
 
 export const features = [
   {
     icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    text: "Interface Glisser-Déposer",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Concevez et organisez facilement vos environnements VR grâce à une interface glisser-déposer conviviale.",
   },
   {
     icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    text: "Compatibilité Multi-Plateforme",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Créez des applications VR qui fonctionnent parfaitement sur plusieurs plateformes, notamment mobile, bureau et casques VR.",
   },
   {
     icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    text: "Modèles Intégrés",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Lancez vos projets VR avec une variété de modèles intégrés pour différents types d'applications et d'environnements.",
   },
   {
     icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    text: "Aperçu en Temps Réel",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Prévisualisez votre application VR en temps réel pendant que vous effectuez des modifications, permettant des itérations et ajustements rapides.",
   },
   {
     icon: <PlugZap />,
-    text: "Collaboration Tools",
+    text: "Outils de Collaboration",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Travaillez en temps réel avec votre équipe sur des projets VR, permettant une collaboration fluide et un partage d'idées.",
   },
   {
     icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    text: "Tableau de Bord Analytique",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Obtenez des informations précieuses sur les interactions et comportements des utilisateurs dans vos applications VR grâce à un tableau de bord analytique intégré.",
   },
 ];
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Fusion de code simplifiée",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Suivez les performances de vos applications VR et obtenez des informations sur le comportement des utilisateurs.",
   },
   {
-    title: "Review code without worry",
+    title: "Révisez le code sans souci",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Suivez les performances de vos applications VR et obtenez des informations sur le comportement des utilisateurs.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "Assistance IA pour gagner du temps",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Suivez les performances de vos applications VR et obtenez des informations sur le comportement des utilisateurs.",
   },
   {
-    title: "Share work in minutes",
+    title: "Partagez votre travail en quelques minutes",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Suivez les performances de vos applications VR et obtenez des informations sur le comportement des utilisateurs.",
   },
 ];
 
 export const pricingOptions = [
   {
-    title: "Free",
+    title: "Gratuit",
     price: "$0",
     features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
+      "Partage de tableau privé",
+      "5 Go de stockage",
+      "Analytique Web",
+      "Mode Privé",
     ],
   },
   {
     title: "Pro",
     price: "$10",
     features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
+      "Partage de tableau privé",
+      "10 Go de stockage",
+      "Analytique Web (Avancée)",
+      "Mode Privé",
     ],
   },
   {
-    title: "Enterprise",
+    title: "Entreprise",
     price: "$200",
     features: [
-      "Private board sharing",
-      "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
+      "Partage de tableau privé",
+      "Stockage Illimité",
+      "Réseau Haute Performance",
+      "Mode Privé",
     ],
   },
 ];
 
 export const resourcesLinks = [
-  { href: "#", text: "Getting Started" },
+  { href: "#", text: "Démarrage rapide" },
   { href: "#", text: "Documentation" },
-  { href: "#", text: "Tutorials" },
-  { href: "#", text: "API Reference" },
-  { href: "#", text: "Community Forums" },
+  { href: "#", text: "Tutoriels" },
+  { href: "#", text: "Référence API" },
+  { href: "#", text: "Forums communautaires" },
 ];
 
 export const platformLinks = [
-  { href: "#", text: "Features" },
-  { href: "#", text: "Supported Devices" },
-  { href: "#", text: "System Requirements" },
-  { href: "#", text: "Downloads" },
-  { href: "#", text: "Release Notes" },
+  { href: "#", text: "Fonctionnalités" },
+  { href: "#", text: "Appareils supportés" },
+  { href: "#", text: "Configuration requise" },
+  { href: "#", text: "Téléchargements" },
+  { href: "#", text: "Notes de version" },
 ];
 
 export const communityLinks = [
-  { href: "#", text: "Events" },
-  { href: "#", text: "Meetups" },
-  { href: "#", text: "Conferences" },
+  { href: "#", text: "Événements" },
+  { href: "#", text: "Rencontres" },
+  { href: "#", text: "Conférences" },
   { href: "#", text: "Hackathons" },
-  { href: "#", text: "Jobs" },
+  { href: "#", text: "Emplois" },
 ];

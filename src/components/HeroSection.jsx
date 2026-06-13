@@ -5,18 +5,17 @@ const HeroSection = () => {
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20">
       <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
-        VirtualR Build Tools
+        VirtualR Outils de Développement
         <span className="bg-linear-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
           {" "}
-          for developers
+          pour les développeurs
         </span>
       </h1>
 
       <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-        similique veniam quas deleniti voluptatum quisquam mollitia amet labore
-        debitis. Nemo corrupti nulla accusantium rerum placeat tempore optio
-        omnis id eos.
+        Créez des expériences VR immersives sans effort. Notre plateforme vous
+        offre tous les outils nécessaires pour concevoir, développer et déployer
+        des applications de réalité virtuelle de qualité professionnelle.
       </p>
 
       <div className="flex justify-center my-10">
@@ -24,7 +23,7 @@ const HeroSection = () => {
           href="#"
           className="bg-linear-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md"
         >
-          Start for free
+          Commencer gratuitement
         </a>
 
         <a href="#" className="py-3 px-4 mx-3 rounded-md border">
