@@ -4,7 +4,7 @@ import NavBar from "./components/NavBar";
 import Pricing from "./components/Pricing";
 import Testimonials from "./components/Testimonials";
 import Workflow from "./components/Workflow";
-import FeatureSection from "./constants/FeatureSection";
+import FeatureSection from "./components/FeatureSection";
 
 function App() {
   return (
